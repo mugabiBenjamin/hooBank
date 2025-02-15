@@ -9,7 +9,7 @@ const Button = ({ styles }) => (
 
 // Add prop types validation  
 Button.propTypes = {  
-  styles: PropTypes.string, // Expecting styles to be a string  
+  styles: PropTypes.string,   // Expecting styles to be a string  
 };  
 
 export default Button

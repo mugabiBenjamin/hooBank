@@ -21,10 +21,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 // Define prop types  
 FeatureCard.propTypes = {  
-  icon: PropTypes.string.isRequired,  // Expecting a string for image URL  
-  title: PropTypes.string.isRequired, // Expecting a string for title  
-  content: PropTypes.string.isRequired, // Expecting a string for content  
-  index: PropTypes.number.isRequired,  // Expecting a number for index  
+  icon: PropTypes.string.isRequired,        // Expecting a string for image URL  
+  title: PropTypes.string.isRequired,       // Expecting a string for title  
+  content: PropTypes.string.isRequired,     // Expecting a string for content  
+  index: PropTypes.number.isRequired,       // Expecting a number for index  
 };  
 
 const Business = () => (
