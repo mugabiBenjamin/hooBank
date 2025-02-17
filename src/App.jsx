@@ -15,7 +15,7 @@ import {
 
 // rafce
 const App = () => (
-  <div className="bg-black w-full overflow-hidden md:px-30 sm:px-10">
+  <div className="bg-black w-full overflow-hidden md:px-20 sm:px-10">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}><Navbar /></div>
     </div>
