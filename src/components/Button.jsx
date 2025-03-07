@@ -1,4 +1,3 @@
-
 import PropTypes from 'prop-types';
 
 const Button = ({ styles }) => (
@@ -7,9 +6,12 @@ const Button = ({ styles }) => (
   </button>
 )
 
-// Add prop types validation  
 Button.propTypes = {  
   styles: PropTypes.string,   // Expecting styles to be a string  
 };  
+
+Button.defaultProps = {
+  styles: '',
+};
 
 export default Button
