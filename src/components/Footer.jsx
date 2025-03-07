@@ -20,7 +20,7 @@ const Footer = () => (
             </h4>
             <ul className="list-none mt-4">
               {footerlink.links.map((link, index) => (
-                <li key={link.name} className={`font-normal text-[16px] leading-[24px] hover:text-[#33bbcf] cursor-pointer text-white ${index !== footerlink.links.length - 1} ? 'mb-4' : 'mb-0'`}>
+                <li key={link.name} className={`font-normal text-[16px] leading-[24px] hover:text-[#33bbcf] cursor-pointer text-white ${index !== footerlink.links.length - 1 ? 'mb-4' : 'mb-0'}`}>
                   {link.name}
                 </li>
               ))}
