@@ -131,3 +131,27 @@
 /* .shadow-outline {
   filter: drop-shadow(2px 2px 5px rgba(255, 255, 255, 0.5));
 } */
+
+/* Enhanced mobile menu with improved transitions in Navbar.jsx */
+
+.mobile-menu-enter {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.mobile-menu-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 200ms, transform 200ms;
+}
+
+.mobile-menu-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mobile-menu-exit-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 200ms, transform 200ms;
+}
