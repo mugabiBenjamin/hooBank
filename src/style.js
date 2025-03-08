@@ -4,7 +4,7 @@ const styles = {
   heading2:
     "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
   paragraph: "font-poppins font-normal text-white text-[18px] leading-[30.8px]",
-  // text-dimWhite to 'text-white' in pagraph
+  // text-dimWhite to 'text-white' in paragraph
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
@@ -15,6 +15,12 @@ const styles = {
 
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
+
+  // Add media query for smaller screens
+  "@media screen and (max-width: 768px)": {
+    heading2:
+      "font-poppins font-semibold text-[32px] leading-[40px] text-white w-full", // Adjusted for smaller screens
+  },
 };
 
 export const layout = {
